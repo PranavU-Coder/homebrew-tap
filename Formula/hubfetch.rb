@@ -1,12 +1,9 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://docs.brew.sh/rubydoc/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Hubfetch < Formula
   include Language::Python::Virtualenv
 
-  desc ""
-  homepage ""
-  url "https://files.pythonhosted.org/packages/source/h/hubfetch/hubfetch-1.0.0.tar.gz"
+  desc "Python CLI tool to check GitHub stats via terminal"
+  homepage "https://github.com/PranavU/hubfetch"
+  url "https://pypi.org/project/hubfetch/#files"
   sha256 "9fbcf5e1abf22d7b64f4b99b09131607d1b6fa408c6ef2322d73eb8f83ea84f1"
   license ""
 
