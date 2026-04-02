@@ -1,18 +1,11 @@
-# PranavU Tap
+# PranavU's Homebrew Tap
 
-## How do I install these formulae?
+This is the official Homebrew Tap for [hubfetch](https://pypi.org/project/hubfetch/), a Python CLI tool that allows you to check your GitHub stats directly from the terminal.
 
-`brew install pranavu/tap/<formula>`
+## Installation
 
-Or `brew tap pranavu/tap` and then `brew install <formula>`.
+To install `hubfetch` on macOS or Linux using [Homebrew](https://brew.sh/), run the following commands:
 
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "pranavu/tap"
-brew "<formula>"
-```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+brew tap pranavu/tap
+brew install hubfetch
