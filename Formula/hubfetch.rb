@@ -2,18 +2,12 @@ class Hubfetch < Formula
   include Language::Python::Virtualenv
 
   desc "Python CLI tool to check GitHub stats via terminal"
-  homepage "https://github.com/PranavU/hubfetch"
-  url "https://pypi.org/project/hubfetch/#files"
+  homepage "https://github.com/PranavU-Coder/hubfetch"
+  url "https://files.pythonhosted.org/packages/70/58/1fbe435900dfaea8a0fd66c28a85604d8f91c09a53d7baf97ac02a88e367/hubfetch-1.0.0.tar.gz"
   sha256 "9fbcf5e1abf22d7b64f4b99b09131607d1b6fa408c6ef2322d73eb8f83ea84f1"
-  license ""
+  license "MIT"
 
   depends_on "python@3.14"
-
-  # Additional dependency
-  # resource "" do
-  #   url ""
-  #   sha256 ""
-  # end
 
   resource "certifi" do
     url "https://files.pythonhosted.org/packages/af/2d/7bf41579a8986e348fa033a31cdd0e4121114f6bce2457e8876010b092dd/certifi-2026.2.25.tar.gz"
@@ -70,15 +64,6 @@ class Hubfetch < Formula
   end
 
   test do
-    # `test do` will create, run in and delete a temporary directory.
-    #
-    # This test will fail and we won't accept that! For Homebrew/homebrew-core
-    # this will need to be a test that verifies the functionality of the
-    # software. Run the test with `brew test hubfetch`. Options passed
-    # to `brew install` such as `--HEAD` also need to be provided to `brew test`.
-    #
-    # The installed folder is not in the path, so use the entire path to any
-    # executables being tested: `system bin/"program", "do", "something"`.
-    system "false"
+    system bin/"hubfetch", "--help"
   end
 end
