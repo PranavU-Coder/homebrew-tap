@@ -3,8 +3,8 @@ class Hubfetch < Formula
 
   desc "Python CLI tool to check GitHub stats via terminal"
   homepage "https://github.com/PranavU-Coder/hubfetch"
-  url "https://files.pythonhosted.org/packages/70/58/1fbe435900dfaea8a0fd66c28a85604d8f91c09a53d7baf97ac02a88e367/hubfetch-1.0.0.tar.gz"
-  sha256 "9fbcf5e1abf22d7b64f4b99b09131607d1b6fa408c6ef2322d73eb8f83ea84f1"
+  url "https://files.pythonhosted.org/packages/b6/0e/64e95a784f2b90715a4242dd9d90cbcdabc2e74c528bb9c86baaae86c10a/hubfetch-1.0.3.tar.gz"
+  sha256 "b9f7faece2cbc7d855bc4ef2d673a9b8e3abeb728d752c075069c5f01f322f72"
   license "MIT"
 
   depends_on "python@3.14"
