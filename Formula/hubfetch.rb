@@ -3,8 +3,8 @@ class Hubfetch < Formula
 
   desc "Python CLI tool to check GitHub stats via terminal"
   homepage "https://github.com/PranavU-Coder/hubfetch"
-  url "https://files.pythonhosted.org/packages/df/7a/15d0b9767c9f36e15e20547c932ed8117b6bc7b17f176ee19e023ad02f2d/hubfetch-1.0.4.tar.gz"
-  sha256 "fc737855e34d5c2d70290f261460cf41d6228d1d0c3fd374679517836ec8022e"
+  url "https://files.pythonhosted.org/packages/61/f8/0a9f98bd0e04998051cefa3a76bae597c260f17a3fee3bb9ae14bf3bf12f/hubfetch-1.0.5.tar.gz"
+  sha256 "4ac742d874f843adb71337cbf9910107317d1597c838468bef3b91bcd3e8f170"
   license "MIT"
 
   depends_on "python@3.14"
@@ -25,8 +25,8 @@ class Hubfetch < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/1a/88/bcf9709822fe69d02c2a6a77956c98ce6ea8ca8767a9aadcedc7eb6a2390/idna-3.16.tar.gz"
-    sha256 "d7a6da03db833450fca25d2358ac9ff06cd624577a4aea3a596d5c0f77b8e03d"
+    url "https://files.pythonhosted.org/packages/cd/63/9496c57188a2ee585e0f1db071d75089a11e98aa86eb99d9d7618fc1edce/idna-3.18.tar.gz"
+    sha256 "ffb385a7e039654cef1ab9ef32c6fafe283c0c0467bba1d9029738ce4a14a848"
   end
 
   resource "markdown-it-py" do
